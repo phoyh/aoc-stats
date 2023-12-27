@@ -5,6 +5,13 @@ Also prints out some colored statistics in the terminal.
 Use without parameters.
 
 Assumes AoC formatted ranks within the input/personal-times-ranks-scores folder.
+
+Currently, GitHub is not on mermaid version required for xycharts (10.6.1). Hence,
+the template contains a reference to the `cumulative-rank-frequency.svg` which needs to
+be kept up to date. Use an online tool to convert the xychart mermaid to svg and remove
+the mermaid part from the README.md before committing.
+(`https://mermaid.live/` does not offer svg export so take it directly from the DOM
+and format it with `https://jsonformatter.org/xml-formatter`)
 """
 
 import itertools as it
@@ -159,6 +166,7 @@ def dashboard_overview(participations):
 	]
 	# mermaid always sorts pie charts -> use colors to make gradual semantics clear
 	# sort colors descending for occurrence / ascending for ranks (as mermaid does)
+	# also adjust series order because old mermaid versions do _not_ sort the legend
 	res = '```mermaid'
 	col_gradient = [
 		# extra long green [1, 500] due to multiple tiny intervals
@@ -168,16 +176,19 @@ def dashboard_overview(participations):
 		('ff4040', '600000'), # red the rest
 	]
 	pie_num = len(occurrence_by_rank)
-	pie_colors = [
-		((o, -r), get_color_within_gradient(col_gradient, i / (pie_num - 1)))
-		for i, (o, _, r) in enumerate(occurrence_by_rank)
+	pie_colors_and_occ = [
+		((o, -r), get_color_within_gradient(col_gradient, i / (pie_num - 1)), (o, rb, r))
+		for i, (o, rb, r) in enumerate(occurrence_by_rank)
 	]
-	pie_colors.sort(reverse=True)
-	pie_colors_str = ', '.join(f'"pie{i+1}": "#{pc}"' for i, (_, pc) in enumerate(pie_colors))
+	pie_colors_and_occ.sort(reverse=True)
+	pie_colors_str = ', '.join(
+		f'"pie{i+1}": "#{pc}"'
+		for i, (_, pc, _) in enumerate(pie_colors_and_occ)
+	)
 	res += '\n%%{init: {"themeVariables": {' + pie_colors_str + '}}}%%'
 	res += '\npie'
 	res += '\ntitle Ranking within Top-k Segment'
-	for o, r_before, r in occurrence_by_rank:
+	for *_, (o, r_before, r) in pie_colors_and_occ:
 		res += f'\n"{o} * [{r_before + 1}, {r}]": {o}'
 	res += '\n```'
 	return res
@@ -206,7 +217,7 @@ def dashboard_history_charts(participations):
 	res += '\nconfig:'
 	res += '\n themeVariables:'
 	res += '\n  xyChart:'
-	plot_color_palette = ['#181818'] * len(chart_quantiles) \
+	plot_color_palette = ['#808080'] * len(chart_quantiles) \
 		+ [f'#{c}' for _, c in zip(years, color_series)]
 	res += f'\n   plotColorPalette: "{', '.join(plot_color_palette)}"'
 	res += '\n---'

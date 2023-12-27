@@ -1,0 +1,103 @@
+<svg aria-roledescription="xychart" role="graphics-document document" viewBox="0 0 700 500" style="max-width: 100%;"
+	xmlns="http://www.w3.org/2000/svg" width="100%" id="graph-div" height="100%">
+	<style>#graph-div{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#graph-div .error-icon{fill:#552222;}#graph-div .error-text{fill:#552222;stroke:#552222;}#graph-div .edge-thickness-normal{stroke-width:2px;}#graph-div .edge-thickness-thick{stroke-width:3.5px;}#graph-div .edge-pattern-solid{stroke-dasharray:0;}#graph-div .edge-pattern-dashed{stroke-dasharray:3;}#graph-div .edge-pattern-dotted{stroke-dasharray:2;}#graph-div .marker{fill:#333333;stroke:#333333;}#graph-div .marker.cross{stroke:#333333;}#graph-div svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#graph-div :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+	<g></g>
+	<g class="main">
+		<rect fill="white" class="background" height="500" width="700"></rect>
+		<g class="chart-title">
+			<text transform="translate(350, 21.600000381469727) rotate(0)" text-anchor="middle" dominant-baseline="middle" font-size="20" fill="#131300" y="0" x="0">Frequency of Ranking within Top-k</text>
+		</g>
+		<g class="plot">
+			<g class="line-plot-0">
+				<path stroke-width="2" stroke="#808080" fill="none" d="M82.516,458.4L142.796,458.4L203.076,458.4L263.356,458.4L323.636,458.4L383.916,458.4L444.196,458.4L504.476,458.4L564.756,458.4L625.036,458.4L685.316,458.4"></path>
+			</g>
+			<g class="line-plot-1">
+				<path stroke-width="2" stroke="#808080" fill="none" d="M82.516,356.65L142.796,356.65L203.076,356.65L263.356,356.65L323.636,356.65L383.916,356.65L444.196,356.65L504.476,356.65L564.756,356.65L625.036,356.65L685.316,356.65"></path>
+			</g>
+			<g class="line-plot-2">
+				<path stroke-width="2" stroke="#808080" fill="none" d="M82.516,254.9L142.796,254.9L203.076,254.9L263.356,254.9L323.636,254.9L383.916,254.9L444.196,254.9L504.476,254.9L564.756,254.9L625.036,254.9L685.316,254.9"></path>
+			</g>
+			<g class="line-plot-3">
+				<path stroke-width="2" stroke="#808080" fill="none" d="M82.516,153.15L142.796,153.15L203.076,153.15L263.356,153.15L323.636,153.15L383.916,153.15L444.196,153.15L504.476,153.15L564.756,153.15L625.036,153.15L685.316,153.15"></path>
+			</g>
+			<g class="line-plot-4">
+				<path stroke-width="2" stroke="#808080" fill="none" d="M82.516,51.4L142.796,51.4L203.076,51.4L263.356,51.4L323.636,51.4L383.916,51.4L444.196,51.4L504.476,51.4L564.756,51.4L625.036,51.4L685.316,51.4"></path>
+			</g>
+			<g class="line-plot-5">
+				<path stroke-width="2" stroke="#f84" fill="none" d="M82.516,458.4L142.796,417.7L203.076,405.49L263.356,393.28L323.636,352.58L383.916,311.88L444.196,295.6L504.476,189.78L564.756,161.29L625.036,92.1L685.316,51.4"></path>
+			</g>
+			<g class="line-plot-6">
+				<path stroke-width="2" stroke="#1d6" fill="none" d="M82.516,446.19L142.796,433.98L203.076,421.77L263.356,421.77L323.636,372.93L383.916,372.93L444.196,356.65L504.476,242.69L564.756,169.43L625.036,128.73L685.316,79.89"></path>
+			</g>
+			<g class="line-plot-7">
+				<path stroke-width="2" stroke="#77f" fill="none" d="M82.516,442.12L142.796,442.12L203.076,442.12L263.356,393.28L323.636,328.16L383.916,279.32L444.196,222.34L504.476,157.22L564.756,132.8L625.036,92.1L685.316,51.4"></path>
+			</g>
+		</g>
+		<g class="bottom-axis">
+			<g class="axis-line">
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 67.83125114440918,467.6000003814697 L 700,467.6000003814697"></path>
+			</g>
+			<g class="label">
+				<text transform="translate(82.51562595367432, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">100</text>
+				<text transform="translate(142.79562587738036, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">150</text>
+				<text transform="translate(203.07562580108643, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">200</text>
+				<text transform="translate(263.3556257247925, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">300</text>
+				<text transform="translate(323.63562564849855, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">500</text>
+				<text transform="translate(383.9156255722046, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">700</text>
+				<text transform="translate(444.1956254959107, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">1000</text>
+				<text transform="translate(504.47562541961673, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">1500</text>
+				<text transform="translate(564.7556253433228, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">2000</text>
+				<text transform="translate(625.0356252670289, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">3000</text>
+				<text transform="translate(685.3156251907349, 478.6000003814697) rotate(0)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="14" fill="#131300" y="0" x="0">5000</text>
+			</g>
+			<g class="ticks">
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 82.51562595367432,468.6000003814697 L 82.51562595367432,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 142.79562587738036,468.6000003814697 L 142.79562587738036,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 203.07562580108643,468.6000003814697 L 203.07562580108643,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 263.3556257247925,468.6000003814697 L 263.3556257247925,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 323.63562564849855,468.6000003814697 L 323.63562564849855,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 383.9156255722046,468.6000003814697 L 383.9156255722046,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 444.1956254959107,468.6000003814697 L 444.1956254959107,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 504.47562541961673,468.6000003814697 L 504.47562541961673,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 564.7556253433228,468.6000003814697 L 564.7556253433228,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 625.0356252670289,468.6000003814697 L 625.0356252670289,473.6000003814697"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 685.3156251907349,468.6000003814697 L 685.3156251907349,473.6000003814697"></path>
+			</g>
+		</g>
+		<g class="left-axis">
+			<g class="axisl-line">
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 66.83125114440918,43.20000076293945 L 66.83125114440918,466.6000003814697"></path>
+			</g>
+			<g class="label">
+				<text transform="translate(55.83125114440918, 51.40000057220459) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">100</text>
+				<text transform="translate(55.83125114440918, 92.10000057220458) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">90</text>
+				<text transform="translate(55.83125114440918, 132.80000057220457) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">80</text>
+				<text transform="translate(55.83125114440918, 173.5000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">70</text>
+				<text transform="translate(55.83125114440918, 214.2000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">60</text>
+				<text transform="translate(55.83125114440918, 254.9000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">50</text>
+				<text transform="translate(55.83125114440918, 295.6000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">40</text>
+				<text transform="translate(55.83125114440918, 336.30000057220457) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">30</text>
+				<text transform="translate(55.83125114440918, 377.0000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">20</text>
+				<text transform="translate(55.83125114440918, 417.7000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">10</text>
+				<text transform="translate(55.83125114440918, 458.4000005722046) rotate(0)" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#131300" y="0" x="0">0</text>
+			</g>
+			<g class="ticks">
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,51.40000057220459 L 60.83125114440918,51.40000057220459"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,92.10000057220458 L 60.83125114440918,92.10000057220458"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,132.80000057220457 L 60.83125114440918,132.80000057220457"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,173.5000005722046 L 60.83125114440918,173.5000005722046"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,214.2000005722046 L 60.83125114440918,214.2000005722046"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,254.9000005722046 L 60.83125114440918,254.9000005722046"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,295.6000005722046 L 60.83125114440918,295.6000005722046"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,336.30000057220457 L 60.83125114440918,336.30000057220457"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,377.0000005722046 L 60.83125114440918,377.0000005722046"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,417.7000005722046 L 60.83125114440918,417.7000005722046"></path>
+				<path stroke-width="2" stroke="#131300" fill="none" d="M 65.83125114440918,458.4000005722046 L 60.83125114440918,458.4000005722046"></path>
+			</g>
+			<g class="title">
+				<text transform="translate(5, 254.9000005722046) rotate(270)" text-anchor="middle" dominant-baseline="text-before-edge" font-size="16" fill="#131300" y="0" x="0">Frequency (in %)</text>
+			</g>
+		</g>
+	</g>
+	<g class="mermaid-tmp-group"></g>
+</svg>

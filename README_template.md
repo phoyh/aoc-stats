@@ -6,6 +6,8 @@ Note that only those dates are included on which I participated in a *"competiti
 {history_tables}
 
 # Series Chart
+![Metrics](/cumulative-rank-frequency.svg)
+
 {history_charts}
 
 # Overall
