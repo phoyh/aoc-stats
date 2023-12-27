@@ -1,0 +1,30 @@
+{
+	"python.testing.pytestArgs": [
+		"test"
+	],
+	"python.testing.unittestEnabled": false,
+	"python.testing.pytestEnabled": true,
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportMissingImports": "none",
+		"reportGeneralTypeIssues": "information",
+		"reportOptionalMemberAccess": "information"
+	},
+	"pylint.args": [
+		"--disable=bad-indentation",
+		"--disable=import-error",
+		"--disable=inconsistent-return-statements",
+		"--disable=invalid-name",
+		"--disable=missing-class-docstring",
+		"--disable=missing-final-newline",
+		"--disable=missing-function-docstring",
+		"--disable=missing-module-docstring",
+		"--disable=too-few-public-methods",
+		"--disable=trailing-whitespace",
+		"--disable=unnecessary-lambda-assignment",
+		"--disable=unspecified-encoding",
+		"--disable=too-many-instance-attributes",
+		"--disable=too-many-arguments",
+		"--disable=too-many-function-args",
+	]
+}
