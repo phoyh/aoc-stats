@@ -128,7 +128,7 @@ def get_rank_buckets():
 	return [100, 150, 200, 300, 500, 700, 1000, 1500, 2000, 3000, 5000]
 
 def get_color_series():
-	return ['f84', '1d6', '77f', 'ee5', 'd6d', '3dd']
+	return ['f84', '1d6', '77f', 'a4a', 'aa3', '3dd']
 
 def get_history(participations):
 	years = get_years(participations)
